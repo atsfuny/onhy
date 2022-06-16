@@ -45,8 +45,8 @@ const Home = ({ marketplace, nft }) => {
   /*if (loading) return (
     <main style={{ padding: "1rem 0" }}>
       <h2>Loading...</h2>
-    </main>*/
-  )
+    </main>
+  )*/
   return (
     <div className="flex justify-center">
       {items.length > 0 ?
