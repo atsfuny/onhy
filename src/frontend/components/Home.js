@@ -42,10 +42,10 @@ const Home = ({ marketplace, nft }) => {
   useEffect(() => {
     loadMarketplaceItems()
   }, [])
-  if (loading) return (
+  /*if (loading) return (
     <main style={{ padding: "1rem 0" }}>
       <h2>Loading...</h2>
-    </main>
+    </main>*/
   )
   return (
     <div className="flex justify-center">
